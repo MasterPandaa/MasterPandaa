@@ -16,7 +16,8 @@
 <br/><br/>
 
 <a href="https://github.com/MasterPandaa"><img src="https://img.shields.io/badge/GitHub-MasterPandaa-0F172A?style=for-the-badge&logo=github&logoColor=E2E8F0&labelColor=020617" alt="GitHub" /></a>
-<a href="https://github.com/MasterPandaa/MyPortfolio"><img src="https://img.shields.io/badge/Portfolio-2026-0F172A?style=for-the-badge&logo=vercel&logoColor=E2E8F0&labelColor=020617" alt="Portfolio" /></a>
+<a href="https://www.kaggle.com/pandaa12"><img src="https://img.shields.io/badge/Kaggle-pandaa12-20BEFF?style=for-the-badge&logo=kaggle&logoColor=020617&labelColor=020617" alt="Kaggle" /></a>
+<a href="https://portofolio-luthfi.up.railway.app"><img src="https://img.shields.io/badge/Live-Portfolio-0F172A?style=for-the-badge&logo=railway&logoColor=E2E8F0&labelColor=020617" alt="Live Portfolio" /></a>
 
 </div>
 
@@ -60,6 +61,37 @@ const luthfi = {
 <br/><br/>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MasterPandaa&bg_color=0D1117&color=94A3B8&line=64748B&point=E2E8F0&area=true&hide_border=true&custom_title=Contribution%20Timeline" alt="contribution timeline" />
+
+</div>
+
+### `> kaggle`
+
+<div align="center">
+
+<a href="https://www.kaggle.com/pandaa12"><img src="https://img.shields.io/badge/Kaggle-pandaa12-20BEFF?style=for-the-badge&logo=kaggle&logoColor=020617&labelColor=020617" alt="Kaggle pandaa12" /></a>
+<img src="https://img.shields.io/badge/Datasets%20Expert-3%20medals-0F172A?style=for-the-badge&labelColor=020617" alt="Datasets Expert" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/DATASETS-30-20BEFF?style=flat-square&labelColor=020617" alt="datasets" />
+<img src="https://img.shields.io/badge/CODE-5-20BEFF?style=flat-square&labelColor=020617" alt="code" />
+<img src="https://img.shields.io/badge/DISCUSSION-1-20BEFF?style=flat-square&labelColor=020617" alt="discussion" />
+<img src="https://img.shields.io/badge/FOLLOWERS-4-0F172A?style=flat-square&labelColor=020617" alt="followers" />
+<img src="https://img.shields.io/badge/RANK-374%20%2F%2011%2C737-0F172A?style=flat-square&labelColor=020617" alt="rank" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Dataset%20views-22.7K-0F172A?style=flat-square&labelColor=020617" alt="views" />
+<img src="https://img.shields.io/badge/Downloads-4.4K-0F172A?style=flat-square&labelColor=020617" alt="downloads" />
+<img src="https://img.shields.io/badge/Upvotes-153-0F172A?style=flat-square&labelColor=020617" alt="upvotes" />
+
+<br/><br/>
+
+| Top Datasets | ⭐ | ⬇️ |
+|---|---:|--:|
+| [Spotify Reviews — Indonesia](https://www.kaggle.com/datasets/pandaa12/spotify-reviews-indonesia-google-play-store) | 34 | 1,106 |
+| [Airbnb Bandung](https://www.kaggle.com/datasets/pandaa12/indonesia-airbnb-dataset-bandung-listings) | 25 | 586 |
+| [Airbnb Bali](https://www.kaggle.com/datasets/pandaa12/indonesia-airbnb-dataset-bali-listings) | 12 | 156 |
 
 </div>
 
