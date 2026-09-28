@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="GitHub signals">
+  <rect width="600" height="300" rx="10" fill="#0E1012" stroke="#1C1F23" stroke-width="1"/>
+  <text x="30" y="42" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="3" fill="#B4B9C0">GITHUB / MASTERPANDAA</text>
+  <text x="570" y="42" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2" fill="#D9A441">ACTIVE</text>
+  <line x1="30" y1="58" x2="570" y2="58" stroke="#2A2E34" stroke-width="1"/>
+  
+    <text x="30" y="96" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2" fill="#6E747D">REPOSITORIES</text>
+    <text x="30" y="126" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="26" fill="#ECE9E2">245</text>
+  
+    <text x="230" y="96" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2" fill="#6E747D">STARS</text>
+    <text x="230" y="126" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="26" fill="#ECE9E2">6</text>
+  
+    <text x="390" y="96" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2" fill="#6E747D">SINCE</text>
+    <text x="390" y="126" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="26" fill="#ECE9E2">2023</text>
+  <line x1="30" y1="140" x2="570" y2="140" stroke="#1C1F23" stroke-width="1"/>
+  <text x="30" y="160" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2" fill="#6E747D">TOP REPOSITORIES</text>
+  
+    <text x="30" y="187" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#B4B9C0">mimik-plus</text>
+    <text x="30" y="200" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#3A3F45">TypeScript</text>
+    <rect x="424" y="180" width="120" height="5" rx="2.5" fill="#1C1F23"/>
+    <rect x="424" y="180" width="120" height="5" rx="2.5" fill="#D9A441"/>
+    <text x="570" y="187" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#ECE9E2">3</text>
+    <text x="30" y="215" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#B4B9C0">MasterPandaa</text>
+    <text x="30" y="228" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#3A3F45">—</text>
+    <rect x="424" y="208" width="120" height="5" rx="2.5" fill="#1C1F23"/>
+    <rect x="424" y="208" width="40" height="5" rx="2.5" fill="#8A6A2A"/>
+    <text x="570" y="215" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#ECE9E2">1</text>
+    <text x="30" y="243" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#B4B9C0">MyPortfolio</text>
+    <text x="30" y="256" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#3A3F45">TypeScript</text>
+    <rect x="424" y="236" width="120" height="5" rx="2.5" fill="#1C1F23"/>
+    <rect x="424" y="236" width="40" height="5" rx="2.5" fill="#8A6A2A"/>
+    <text x="570" y="243" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#ECE9E2">1</text>
+    <text x="30" y="271" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#B4B9C0">CV-ATS-Builder</text>
+    <text x="30" y="284" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#3A3F45">TypeScript</text>
+    <rect x="424" y="264" width="120" height="5" rx="2.5" fill="#1C1F23"/>
+    <rect x="424" y="264" width="40" height="5" rx="2.5" fill="#8A6A2A"/>
+    <text x="570" y="271" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#ECE9E2">1</text>
+</svg>

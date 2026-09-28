@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="332" viewBox="0 0 1200 332" role="img" aria-label="Muhammad Luthfi Abdillah">
+  <defs>
+    <linearGradient id="hrule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D9A441"/><stop offset="1" stop-color="#D9A441" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="hglow" cx="0.16" cy="0.42" r="0.7">
+      <stop offset="0" stop-color="#D9A441" stop-opacity="0.10"/><stop offset="1" stop-color="#D9A441" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="332" fill="#08090A"/>
+  <rect width="1200" height="332" fill="url(#hglow)"/>
+  <line x1="60.0" y1="0" x2="60.0" y2="332" stroke="#1C1F23" stroke-width="1" opacity="0.5"/><line x1="158.2" y1="0" x2="158.2" y2="332" stroke="#1C1F23" stroke-width="1" opacity="0.5"/><line x1="256.4" y1="0" x2="256.4" y2="332" stroke="#1C1F23" stroke-width="1" opacity="0.5"/><line x1="354.5" y1="0" x2="354.5" y2="332" stroke="#1C1F23" stroke-width="1" opacity="0.5"/><line x1="452.7" y1="0" x2="452.7" y2="332" stroke="#1C1F23" stroke-width="1" opacity="0.5"/><line x1="550.9" y1="0" x2="550.9" y2="332" stroke="#1C1F23" stroke-width="1" opacity="0.5"/><line x1="649.1" y1="0" x2="649.1" y2="332" stroke="#1C1F23" stroke-width="1" opacity="0.5"/><line x1="747.3" y1="0" x2="747.3" y2="332" stroke="#1C1F23" stroke-width="1" opacity="0.5"/><line x1="845.5" y1="0" x2="845.5" y2="332" stroke="#1C1F23" stroke-width="1" opacity="0.5"/><line x1="943.6" y1="0" x2="943.6" y2="332" stroke="#1C1F23" stroke-width="1" opacity="0.5"/><line x1="1041.8" y1="0" x2="1041.8" y2="332" stroke="#1C1F23" stroke-width="1" opacity="0.5"/><line x1="1140.0" y1="0" x2="1140.0" y2="332" stroke="#1C1F23" stroke-width="1" opacity="0.5"/>
+  <rect x="0" y="0" width="1200" height="1" fill="#2A2E34"/>
+  <rect x="0" y="331" width="1200" height="1" fill="#2A2E34"/>
+
+  <text x="60" y="86" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="5" fill="#D9A441">PORTFOLIO / 2026</text>
+
+  <text x="60" y="168" font-family="Georgia,'Iowan Old Style','Times New Roman',serif" font-size="60" fill="#ECE9E2">Muhammad Luthfi Abdillah</text>
+
+  <rect x="60" y="196" width="0" height="2" fill="url(#hrule)">
+    <animate attributeName="width" from="0" to="360" dur="1.4s" fill="freeze" begin="0.2s"/>
+  </rect>
+
+  <text x="60" y="234" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" letter-spacing="4" fill="#B4B9C0">DATA ENGINEER <tspan fill="#D9A441">·</tspan> FULL-STACK DEVELOPER</text>
+
+  <text x="60" y="286" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#6E747D">Experiments in data pipelines, applied ML and product web.</text>
+  <rect x="60" y="298" width="8" height="14" fill="#D9A441">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.6s" repeatCount="indefinite"/>
+  </rect>
+
+  <line x1="1040" y1="96" x2="1140" y2="96" stroke="#2A2E34" stroke-width="1"/>
+  
+    <text x="1140" y="118" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2.5" fill="#6E747D">REPOSITORIES</text>
+    <text x="1140" y="140" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="21" fill="#ECE9E2">245</text>
+    <text x="1140" y="164" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2.5" fill="#6E747D">KAGGLE DATASETS</text>
+    <text x="1140" y="186" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="21" fill="#ECE9E2">30</text>
+    <text x="1140" y="210" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2.5" fill="#6E747D">CONTRIBUTIONS / 12M</text>
+    <text x="1140" y="232" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="21" fill="#ECE9E2">460</text>
+
+  <text x="1140" y="262" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" letter-spacing="3" fill="#6E747D">FOCUS</text>
+  <text x="1140" y="288" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#B4B9C0">AI AGENTS <tspan fill="#D9A441">·</tspan> DATA PIPELINES <tspan fill="#D9A441">·</tspan> PRODUCT WEB</text>
+</svg>

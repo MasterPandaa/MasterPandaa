@@ -1,0 +1,30 @@
+name: refresh-profile-assets
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # every Monday, 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Generate SVG assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+        run: node scripts/build-assets.mjs
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --quiet && git diff --cached --quiet || git commit -m "chore: refresh profile assets"
+          git push
