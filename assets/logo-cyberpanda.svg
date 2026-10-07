@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Cyber Panda Logo">
+  <defs>
+    <linearGradient id="mp-visor" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="mp-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="mp-plate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E2638"/>
+      <stop offset="100%" stop-color="#0F141E"/>
+    </linearGradient>
+    <linearGradient id="mp-silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes visor-pulse {
+      0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 4px #06B6D4); }
+      50% { opacity: 1; filter: drop-shadow(0 0 10px #38BDF8); }
+    }
+    .visor-beam { animation: visor-pulse 2.4s ease-in-out infinite; }
+  </style>
+
+  <!-- Outer Cyber Ring / Reticle -->
+  <circle cx="128" cy="128" r="122" fill="#07090E" stroke="#1E2638" stroke-width="2"/>
+  <circle cx="128" cy="128" r="116" fill="none" stroke="#2A364F" stroke-width="1" stroke-dasharray="8 6" opacity="0.6"/>
+  <circle cx="128" cy="128" r="122" fill="none" stroke="#06B6D4" stroke-width="2" stroke-dasharray="30 160" opacity="0.8"/>
+  <circle cx="128" cy="128" r="122" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="20 170" stroke-dashoffset="100" opacity="0.8"/>
+
+  <!-- Coordinates & Tech Badges -->
+  <path d="M 28 128 L 16 128 M 240 128 L 228 128 M 128 28 L 128 16 M 128 240 L 128 228" stroke="#38BDF8" stroke-width="2" opacity="0.5"/>
+
+  <!-- Left Mechanical Ear -->
+  <g>
+    <path d="M 52 50 L 86 36 L 96 74 L 62 88 Z" fill="url(#mp-plate)" stroke="#06B6D4" stroke-width="1.5"/>
+    <circle cx="72" cy="62" r="14" fill="#0A0D14" stroke="#1E2638" stroke-width="2"/>
+    <circle cx="72" cy="62" r="7" fill="#06B6D4" opacity="0.7"/>
+    <circle cx="72" cy="62" r="3" fill="#E2E8F0"/>
+  </g>
+
+  <!-- Right Mechanical Ear -->
+  <g>
+    <path d="M 204 50 L 170 36 L 160 74 L 194 88 Z" fill="url(#mp-plate)" stroke="#F59E0B" stroke-width="1.5"/>
+    <circle cx="184" cy="62" r="14" fill="#0A0D14" stroke="#1E2638" stroke-width="2"/>
+    <circle cx="184" cy="62" r="7" fill="#F59E0B" opacity="0.7"/>
+    <circle cx="184" cy="62" r="3" fill="#E2E8F0"/>
+  </g>
+
+  <!-- Main Helmet Base -->
+  <polygon points="128,42 186,64 198,124 184,188 128,212 72,188 58,124 70,64" fill="url(#mp-plate)" stroke="#2A364F" stroke-width="2"/>
+
+  <!-- Cheek Armor (Silver alloy) -->
+  <polygon points="72,130 96,140 92,182 72,176" fill="url(#mp-silver)" opacity="0.95"/>
+  <polygon points="184,130 160,140 164,182 184,176" fill="url(#mp-silver)" opacity="0.95"/>
+
+  <!-- Cranium Center Plate -->
+  <polygon points="128,48 152,66 146,104 128,108 110,104 104,66" fill="#0F141E" stroke="#38BDF8" stroke-width="1.5"/>
+  <polygon points="128,74 136,86 128,94 120,86" fill="url(#mp-gold)"/>
+
+  <!-- Obsidian Panda Eye Shields -->
+  <polygon points="76,106 114,112 110,144 80,140" fill="#07090E" stroke="#1E2638" stroke-width="1.5"/>
+  <polygon points="180,106 142,112 146,144 176,140" fill="#07090E" stroke="#1E2638" stroke-width="1.5"/>
+
+  <!-- Continuous Cyber Visor -->
+  <g class="visor-beam">
+    <path d="M 80 120 L 176 120 L 172 132 L 84 132 Z" fill="url(#mp-visor)"/>
+    <line x1="128" y1="120" x2="128" y2="132" stroke="#07090E" stroke-width="2"/>
+    <circle cx="98" cy="126" r="2.5" fill="#FFFFFF"/>
+    <circle cx="158" cy="126" r="2.5" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Snout & Rebreather -->
+  <polygon points="128,142 142,156 128,170 114,156" fill="#0A0D14" stroke="#2A364F" stroke-width="1.5"/>
+  <polygon points="128,150 134,158 122,158" fill="#F59E0B"/>
+  <line x1="122" y1="178" x2="134" y2="178" stroke="#06B6D4" stroke-width="1.5"/>
+  <line x1="124" y1="184" x2="132" y2="184" stroke="#06B6D4" stroke-width="1.5"/>
+
+  <!-- Chin Armor Plate -->
+  <polygon points="128,194 144,188 140,204 128,210 116,204 112,188" fill="#1E2638" stroke="#38BDF8" stroke-width="1"/>
+  <text x="128" y="62" font-family="ui-monospace, monospace" font-size="7" font-weight="900" fill="#94A3B8" text-anchor="middle" letter-spacing="1.5">MP-MK1</text>
+</svg>

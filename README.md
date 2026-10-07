@@ -1,96 +1,152 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Muhammad Luthfi Abdillah — Data Engineer & Full-Stack Developer" width="100%" />
+<img src="assets/logo-cyberpanda.svg" alt="MasterPandaa Cyber Logo" width="130" height="130" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=D9A441&center=true&vCenter=true&width=700&lines=Full-Stack+Developer+%7C+QA+Engineer+%7C+Data+Engineer;Building+pipelines%2C+products+%26+AI+agents+%F0%9F%9A%80;Kaggle+Datasets+Expert+%C2%B7+Rank+%23374+of+11%2C737;Yogyakarta%2C+Indonesia+%F0%9F%87%AE%F0%9F%87%A9)](https://git.io/typing-svg)
+# 🌌 MUHAMMAD LUTHFI ABDILLAH
+### `THE POLYMATH ARCHITECT`
+**Full-Stack Systems · Big Data & ML Pipelines · Automated QA & SAST Reliability**
 
 <br />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/luthfiabdl)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portofolio-luthfi.up.railway.app)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/pandaa12)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luthfiabd.14@gmail.com)
+[![Portfolio](https://img.shields.io/badge/🌐_LIVE_PORTFOLIO-07090E?style=for-the-badge&logo=railway&logoColor=38BDF8)](https://portofolio-luthfi.up.railway.app)
+[![LinkedIn](https://img.shields.io/badge/💼_LINKEDIN-07090E?style=for-the-badge&logo=linkedin&logoColor=0077B5)](https://linkedin.com/in/luthfiabdl)
+[![Kaggle](https://img.shields.io/badge/📊_KAGGLE_EXPERT-07090E?style=for-the-badge&logo=kaggle&logoColor=F59E0B)](https://www.kaggle.com/pandaa12)
+[![Email](https://img.shields.io/badge/✉️_SECURE_CONTACT-07090E?style=for-the-badge&logo=gmail&logoColor=EF4444)](mailto:luthfiabd.14@gmail.com)
+
+<br /><br />
+
+<!-- CENTERPIECE BENTO DASHBOARD -->
+<img src="assets/bento-dashboard.svg" alt="MasterPandaa Cyber Bento Dashboard" width="100%" />
 
 </div>
 
----
-
-## 🛠️ Tech Stack
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TanStack](https://img.shields.io/badge/TanStack-FF4154?style=flat-square&logo=reactquery&logoColor=white)
-
-**Backend & Data Engineering**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-
-**QA & Testing**
-
-![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-
-**Tools & Cloud**
-
-![Docker](https://img.shields.io/badge/Docker-0CC1F3?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-131415?style=flat-square&logo=railway&logoColor=white)
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
+<br />
 
 ---
 
-## 📊 Activity
+## ⚡ The Polymath Triad Matrix
 
-<img src="assets/invaders.svg" alt="Contribution timeline" width="100%" />
+A unified tri-core engineering system balancing interface craftsmanship, scalable data backends, and rigorous automated reliability.
 
 <table width="100%" border="0">
 <tr>
-<td width="50%" valign="top"><img src="assets/panel-github.svg" alt="GitHub signals" width="100%" /></td>
-<td width="50%" valign="top"><img src="assets/panel-kaggle.svg" alt="Kaggle signals" width="100%" /></td>
+<td width="33%" valign="top">
+
+### ⚡ Pillar 01: Full-Stack Systems
+*Engineered for velocity, reactive UX, and high-cadence interfaces.*
+
+- **Core Arsenal:** `React 19` · `TypeScript` · `TanStack Start / Query` · `Tailwind CSS v4` · `Next.js`
+- **Architectures:** SSR / Static Hybrid, Real-time state management, modular component design systems.
+- **Craft:** ATS formatting engines, cross-platform emulators, and custom AI chat interfaces.
+
+</td>
+<td width="33%" valign="top">
+
+### 📊 Pillar 02: Big Data & ML
+*Engineered for distributed processing, predictive intelligence, and analytical scale.*
+
+- **Core Arsenal:** `Apache Spark` · `Python` · `FastAPI` · `PostgreSQL` · `Pandas`
+- **Verified Standing:** **Kaggle Datasets Expert** (Rank #374 of 11,737 · Top 3.1% Globally).
+- **Domain Focus:** NLP sentiment analysis pipelines, TF-IDF regression models, Graph Neural Networks (GNN).
+
+</td>
+<td width="33%" valign="top">
+
+### 🛡️ Pillar 03: Automated QA & SAST
+*Engineered for zero-regression pipelines, automated hardware interception, and code safety.*
+
+- **Core Arsenal:** `Playwright` · `Selenium` · `Postman` · `Virtual Media Streams (MV3)`
+- **Published Research:** SAST Implementation for Evaluating LLM Code Quality (*Jurnal SISTEMASI Sinta 3 · DOI: 10.32520/stmsi.v15i5.6395*).
+- **Tooling:** Virtual hardware stream interception for camera-free automated QR/barcode testing.
+
+</td>
 </tr>
 </table>
 
+---
+
+## 🛸 Selected Mission Works
+
+<table width="100%" border="0">
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 [Mimik-Plus](https://github.com/MasterPandaa/Mimik-Plus)
+> Community fork of Mimik empowering multilingual support and custom LLM provider orchestration.
+- **Stack:** `TypeScript · AI Integration · Modern Tooling`
+- **Key Capability:** Multi-provider fallback pipelines & native Bahasa Indonesia localization.
+
+</td>
+<td width="50%" valign="top">
+
+### 📹 [QR-Camera](https://github.com/MasterPandaa/QR-Camera)
+> Manifest V3 browser extension virtualizing webcam video streams with dynamic QR codes for headlessly automated QA suites.
+- **Stack:** `JavaScript · Manifest V3 · Automated QA Testing`
+- **Key Capability:** Eliminates physical camera dependencies across Opera, Chrome, Edge & Firefox test runners.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📈 [Sentilytics-AI](https://github.com/MasterPandaa/Sentilytics-AI)
+> Real-time text sentiment intelligence platform with interactive natural language processing dashboards.
+- **Stack:** `Python · Django · NLP · Data Analytics`
+- **Key Capability:** Live stream text categorization and multi-dimensional statistical charts.
+
+</td>
+<td width="50%" valign="top">
+
+### 📜 [Prompt-Engineering-Collection](https://github.com/MasterPandaa/Prompt-Engineering-Collection)
+> Academic research repository evaluating LLM-generated software vulnerabilities via Static Application Security Testing (SAST).
+- **Stack:** `Python · SAST · LLM Quality Assurance`
+- **Publication:** Jurnal SISTEMASI Vol. 15 No. 5 (2026) · Sinta 3 accredited.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 💼 [PandaaATS-Builder](https://github.com/MasterPandaa/PandaaATS-Builder)
+> High-performance, parser-compliant Curriculum Vitae builder generating ATS-validated documents.
+- **Stack:** `TypeScript · React · Clean Architecture`
+- **Key Capability:** Strict typography formatting ensuring maximum ATS screening scores.
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 [MyPortfolio](https://github.com/MasterPandaa/MyPortfolio)
+> Production interactive portfolio showcasing data pipelines, deep-dive experiments, and engineering logs.
+- **Stack:** `React 19 · TanStack Start · Tailwind CSS v4`
+- **Deployment:** Live at [portofolio-luthfi.up.railway.app](https://portofolio-luthfi.up.railway.app).
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🐍 Continuous Cadence & Telemetry
+
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=MasterPandaa&theme=dark&hide_border=true&background=08090A&ring=D9A441&fire=D9A441&currStreakLabel=D9A441&sideLabels=6E747D&dates=6E747D)
+### 🟢 Contribution Rhythm
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/snake.svg" />
+  <img alt="Contribution Snake Stream" src="assets/snake.svg" width="100%" />
+</picture>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=MasterPandaa&theme=darkhub&no-frame=true&row=1&column=6&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+<br />
+
+<img src="assets/invaders.svg" alt="Annual Output Timeline" width="100%" />
 
 </div>
 
 ---
 
-## 🐍 Contribution Snake
+<div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/snake.svg" />
-  <img alt="contribution snake animation" src="assets/snake.svg" />
-</picture>
+<sub>📍 **YOGYAKARTA, ID** // `7.7956° S, 110.3695° E` · Engineered with precision · Telemetry auto-refreshed via GitHub Actions CI/CD</sub>
 
----
-
-## 🚀 Selected Work
-
-| Project | Description | Stack |
-|---|---|---|
-| [**Mimik-Plus**](https://github.com/MasterPandaa/Mimik-Plus) | Community fork of Mimik with custom AI providers & Bahasa Indonesia support | `TypeScript` |
-| [**MyPortfolio**](https://github.com/MasterPandaa/MyPortfolio) | Personal portfolio — live at [portofolio-luthfi.up.railway.app](https://portofolio-luthfi.up.railway.app) | `React 19 · TanStack · Tailwind v4` |
-| [**PandaaATS-Builder**](https://github.com/MasterPandaa/PandaaATS-Builder) | ATS-friendly CV builder — modern & intuitive | `TypeScript` |
-| [**QR-Camera**](https://github.com/MasterPandaa/QR-Camera) | Browser extension (MV3) for virtual QR/barcode injection in automated QA testing | `JavaScript` |
-| [**Sentilytics-AI**](https://github.com/MasterPandaa/Sentilytics-AI) | Real-time text sentiment analysis & NLP visualization dashboard | `Python · Django` |
-| [**Prompt-Engineering-Collection**](https://github.com/MasterPandaa/Prompt-Engineering-Collection) | Research repo — SAST for LLM-generated code quality · Jurnal SISTEMASI Sinta 3 | `Python` |
-
-<br />
-
-<sub>📍 Yogyakarta, Indonesia · <a href="mailto:luthfiabd.14@gmail.com">luthfiabd.14@gmail.com</a> · <a href="https://linkedin.com/in/luthfiabdl">LinkedIn</a> · <a href="https://github.com/MasterPandaa">GitHub</a> · <a href="https://www.kaggle.com/pandaa12">Kaggle</a> · Assets auto-generated weekly via GitHub Actions</sub>
+</div>
