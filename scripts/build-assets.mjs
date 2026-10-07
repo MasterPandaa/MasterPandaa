@@ -9,7 +9,7 @@ const ROOT = resolve(__dirname, "..");
 const OUT = resolve(ROOT, "assets");
 mkdirSync(OUT, { recursive: true });
 
-const GH_TOKEN = process.env.GH_TOKEN || "";
+const GH_TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || "";
 const KG_TOKEN = process.env.KAGGLE_API_TOKEN || "";
 const USER = "MasterPandaa";
 const KAGGLE_USER = "pandaa12";
@@ -185,7 +185,7 @@ function hero(d) {
     <animate attributeName="width" from="0" to="360" dur="1.4s" fill="freeze" begin="0.2s"/>
   </rect>
 
-  <text x="60" y="234" font-family="${mono}" font-size="14" letter-spacing="4" fill="${C.soft}">DATA ENGINEER <tspan fill="${C.gold}">·</tspan> FULL-STACK DEVELOPER</text>
+  <text x="60" y="234" font-family="${mono}" font-size="14" letter-spacing="4" fill="${C.soft}">DATA ENGINEER <tspan fill="${C.gold}">·</tspan> FULL-STACK DEVELOPER <tspan fill="${C.gold}">·</tspan> QA ENGINEER</text>
 
   <text x="60" y="286" font-family="${mono}" font-size="12" fill="${C.muted}">Experiments in data pipelines, applied ML and product web.</text>
   <rect x="60" y="298" width="8" height="14" fill="${C.gold}">
