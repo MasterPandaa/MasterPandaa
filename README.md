@@ -6,6 +6,7 @@
 
 <br />
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/luthfiabdl)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portofolio-luthfi.up.railway.app)
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/pandaa12)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luthfiabd.14@gmail.com)
@@ -83,11 +84,13 @@
 
 | Project | Description | Stack |
 |---|---|---|
-| [**mimik-plus**](https://github.com/MasterPandaa/mimik-plus) | Community fork of Mimik with custom AI providers & Bahasa Indonesia support | `TypeScript` |
+| [**Mimik-Plus**](https://github.com/MasterPandaa/Mimik-Plus) | Community fork of Mimik with custom AI providers & Bahasa Indonesia support | `TypeScript` |
 | [**MyPortfolio**](https://github.com/MasterPandaa/MyPortfolio) | Personal portfolio — live at [portofolio-luthfi.up.railway.app](https://portofolio-luthfi.up.railway.app) | `React 19 · TanStack · Tailwind v4` |
-| [**CV-ATS-Builder**](https://github.com/MasterPandaa/CV-ATS-Builder) | ATS-friendly CV builder v1.0.0 | `TypeScript` |
-| [**Kaggle Datasets**](https://www.kaggle.com/pandaa12) | 30 public datasets · 5 notebooks · Datasets Expert rank #374 / 11,737 | `Python` |
+| [**PandaaATS-Builder**](https://github.com/MasterPandaa/PandaaATS-Builder) | ATS-friendly CV builder — modern & intuitive | `TypeScript` |
+| [**QR-Camera**](https://github.com/MasterPandaa/QR-Camera) | Browser extension (MV3) for virtual QR/barcode injection in automated QA testing | `JavaScript` |
+| [**Sentilytics-AI**](https://github.com/MasterPandaa/Sentilytics-AI) | Real-time text sentiment analysis & NLP visualization dashboard | `Python · Django` |
+| [**Prompt-Engineering-Collection**](https://github.com/MasterPandaa/Prompt-Engineering-Collection) | Research repo — SAST for LLM-generated code quality · Jurnal SISTEMASI Sinta 3 | `Python` |
 
 <br />
 
-<sub>📍 Yogyakarta, Indonesia · <a href="mailto:luthfiabd.14@gmail.com">luthfiabd.14@gmail.com</a> · <a href="https://github.com/MasterPandaa">GitHub</a> · <a href="https://www.kaggle.com/pandaa12">Kaggle</a> · Assets auto-generated weekly via GitHub Actions</sub>
+<sub>📍 Yogyakarta, Indonesia · <a href="mailto:luthfiabd.14@gmail.com">luthfiabd.14@gmail.com</a> · <a href="https://linkedin.com/in/luthfiabdl">LinkedIn</a> · <a href="https://github.com/MasterPandaa">GitHub</a> · <a href="https://www.kaggle.com/pandaa12">Kaggle</a> · Assets auto-generated weekly via GitHub Actions</sub>
