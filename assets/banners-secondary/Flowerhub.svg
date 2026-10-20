@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" width="960" height="280">
+  <defs>
+    <!-- Background Grid Pattern -->
+    <pattern id="grid-Flowerhub" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="1" fill="#FFFFFF" fill-opacity="0.04"/>
+    </pattern>
+    
+    <!-- Ambient Radial Accent Glow -->
+    <radialGradient id="glow-Flowerhub" cx="80%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.20"/>
+      <stop offset="60%" stop-color="#064E3B" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0A0A0F" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Linear Gradient for Canvas -->
+    <linearGradient id="bg-grad-Flowerhub" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12121A"/>
+      <stop offset="100%" stop-color="#09090D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Canvas Base & Grid -->
+  <rect width="960" height="280" rx="12" fill="url(#bg-grad-Flowerhub)"/>
+  <rect width="960" height="280" rx="12" fill="url(#grid-Flowerhub)"/>
+  <rect width="960" height="280" rx="12" fill="url(#glow-Flowerhub)"/>
+
+  <!-- 2. Architectural Borders -->
+  <rect x="0.75" y="0.75" width="958.5" height="278.5" rx="11.25" fill="none" stroke="#222232" stroke-width="1.5"/>
+  <!-- Top Accent Highlight -->
+  <line x1="48" y1="1" x2="280" y2="1" stroke="#10B981" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- 3. Left Column Content -->
+  <!-- Category Badge -->
+  <g transform="translate(48, 38)">
+    <rect width="151.5" height="22" rx="4" fill="#064E3B" fill-opacity="0.35" stroke="#10B981" stroke-width="1.2"/>
+    <circle cx="12" cy="11" r="3" fill="#10B981"/>
+    <text x="22" y="14.5" fill="#6EE7B7" font-family="'SF Mono', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1.2">E-COMMERCE PLATFORM</text>
+  </g>
+
+  <!-- Title -->
+  <text x="48" y="98" fill="#F8FAFC" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="29" font-weight="800" letter-spacing="-0.5">Flowerhub Marketplace</text>
+
+  <!-- Subtitle / Tagline -->
+  <text x="48" y="128" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="400">Boutique Florist Marketplace with Midtrans Payment Integration</text>
+
+  <!-- Tech Stack Badges -->
+  
+        <g transform="translate(48, 158)">
+          <rect width="90.0" height="24" rx="4" fill="#14141F" stroke="#26263A" stroke-width="1"/>
+          <text x="45.0" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">Laravel 11</text>
+        </g>
+        
+        <g transform="translate(146.0, 158)">
+          <rect width="68.4" height="24" rx="4" fill="#14141F" stroke="#26263A" stroke-width="1"/>
+          <text x="34.2" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">PHP 8.2</text>
+        </g>
+        
+        <g transform="translate(222.4, 158)">
+          <rect width="55.0" height="24" rx="4" fill="#14141F" stroke="#26263A" stroke-width="1"/>
+          <text x="27.5" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">MySQL</text>
+        </g>
+        
+        <g transform="translate(285.4, 158)">
+          <rect width="104.4" height="24" rx="4" fill="#14141F" stroke="#26263A" stroke-width="1"/>
+          <text x="52.2" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">Midtrans API</text>
+        </g>
+        
+        <g transform="translate(397.79999999999995, 158)">
+          <rect width="90.0" height="24" rx="4" fill="#14141F" stroke="#26263A" stroke-width="1"/>
+          <text x="45.0" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">E-Commerce</text>
+        </g>
+        
+
+  <!-- Footer Metadata & GitHub Repository Info -->
+  <g transform="translate(48, 226)">
+    <!-- GitHub Octocat Icon -->
+    <path d="M 8 0 C 3.58 0 0 3.58 0 8 C 0 11.54 2.29 14.53 5.47 15.59 C 5.87 15.66 6.02 15.42 6.02 15.21 C 6.02 15.02 6.01 14.39 6.01 13.72 C 4 14.09 3.48 13.23 3.32 12.78 C 3.23 12.55 2.84 11.84 2.5 11.65 C 2.22 11.5 1.82 11.13 2.49 11.12 C 3.12 11.11 3.57 11.7 3.72 11.94 C 4.44 13.15 5.59 12.81 6.05 12.6 C 6.12 12.08 6.33 11.73 6.56 11.53 C 4.78 11.33 2.92 10.64 2.92 7.58 C 2.92 6.71 3.23 5.99 3.74 5.43 C 3.66 5.23 3.38 4.41 3.82 3.31 C 3.82 3.31 4.49 3.1 6.02 4.13 C 6.66 3.95 7.34 3.86 8.02 3.86 C 8.7 3.86 9.38 3.95 10.02 4.13 C 11.55 3.09 12.22 3.31 12.22 3.31 C 12.66 4.41 12.38 5.23 12.3 5.43 C 12.81 5.99 13.12 6.7 13.12 7.58 C 13.12 10.65 11.25 11.33 9.47 11.53 C 9.76 11.78 10.01 12.26 10.01 13.01 C 10.01 14.08 10 14.94 10 15.21 C 10 15.42 10.15 15.67 10.55 15.59 C 13.71 14.53 16 11.53 16 8 C 16 3.58 12.42 0 8 0 Z" fill="#64748B"/>
+    <text x="24" y="12.5" fill="#64748B" font-family="'SF Mono', Consolas, monospace" font-size="12" font-weight="500">MasterPandaa / Flowerhub</text>
+    
+    <!-- Status Pill -->
+    <rect x="235" y="-1" width="62" height="18" rx="3" fill="#12121C" stroke="#252538" stroke-width="1"/>
+    <circle cx="243" cy="8" r="2.5" fill="#10B981"/>
+    <text x="250" y="11.5" fill="#94A3B8" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="600">ACTIVE</text>
+  </g>
+
+  <!-- 4. Right Column Geometric Vector Motif -->
+  
+    <g transform="translate(670, 35)">
+      <!-- Geometric Polygon Lotus / Botanical Geometry -->
+      <!-- Center Core -->
+      <circle cx="115" cy="100" r="14" fill="#10B981" stroke="#FFFFFF" stroke-width="1.5"/>
+      <circle cx="115" cy="100" r="7" fill="#FFFFFF"/>
+
+      <!-- Layer 1 Petals (Hexagonal) -->
+      <polygon points="115,65 128,85 115,95 102,85" fill="#064E3B" stroke="#6EE7B7" stroke-width="1.5"/>
+      <polygon points="115,135 128,115 115,105 102,115" fill="#064E3B" stroke="#6EE7B7" stroke-width="1.5"/>
+      <polygon points="80,82 100,90 98,105 80,100" fill="#064E3B" stroke="#6EE7B7" stroke-width="1.5"/>
+      <polygon points="150,82 130,90 132,105 150,100" fill="#064E3B" stroke="#6EE7B7" stroke-width="1.5"/>
+      <polygon points="80,118 100,110 98,95 80,100" fill="#064E3B" stroke="#6EE7B7" stroke-width="1.5"/>
+      <polygon points="150,118 130,110 132,95 150,100" fill="#064E3B" stroke="#6EE7B7" stroke-width="1.5"/>
+
+      <!-- Layer 2 Outer Faceted Petals -->
+      <polygon points="115,40 135,68 115,75 95,68" fill="#181824" stroke="#10B981" stroke-width="2"/>
+      <polygon points="165,65 150,92 135,85 140,65" fill="#181824" stroke="#10B981" stroke-width="2"/>
+      <polygon points="165,135 150,108 135,115 140,135" fill="#181824" stroke="#10B981" stroke-width="2"/>
+      <polygon points="115,160 135,132 115,125 95,132" fill="#181824" stroke="#10B981" stroke-width="2"/>
+      <polygon points="65,135 80,108 95,115 90,135" fill="#181824" stroke="#10B981" stroke-width="2"/>
+      <polygon points="65,65 80,92 95,85 90,65" fill="#181824" stroke="#10B981" stroke-width="2"/>
+
+      <!-- Flowing E-Commerce Payment Wave -->
+      <path d="M 25 155 Q 65 175 115 155 T 205 165" fill="none" stroke="#6EE7B7" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- Floating Shopping Cart Badge -->
+      <g transform="translate(155, 130)">
+        <circle cx="20" cy="20" r="18" fill="#0D0D14" stroke="#10B981" stroke-width="2"/>
+        <path d="M 12 14 L 15 14 L 18 24 L 26 24 L 28 17 L 16 17" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="19" cy="27" r="1.5" fill="#6EE7B7"/>
+        <circle cx="25" cy="27" r="1.5" fill="#6EE7B7"/>
+      </g>
+
+      <!-- Status Badge -->
+      <rect x="58" y="195" width="114" height="18" rx="4" fill="#0D0D14" stroke="#10B981" stroke-width="1"/>
+      <text x="115" y="207" fill="#6EE7B7" font-family="'SF Mono', Consolas, monospace" font-size="8.5" font-weight="600" text-anchor="middle">MIDTRANS GATEWAY</text>
+    </g>
+    
+</svg>
