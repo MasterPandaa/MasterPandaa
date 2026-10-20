@@ -1,123 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" width="960" height="280">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 280" width="960" height="280">
   <defs>
-    <!-- Background Grid Pattern -->
+    <!-- Background Micro-Grid Pattern -->
     <pattern id="grid-MyPortfolio" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="1" fill="#FFFFFF" fill-opacity="0.04"/>
+      <circle cx="12" cy="12" r="0.8" fill="#FFFFFF" fill-opacity="0.035"/>
     </pattern>
-    
-    <!-- Ambient Radial Accent Glow -->
-    <radialGradient id="glow-MyPortfolio" cx="80%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.20"/>
-      <stop offset="60%" stop-color="#0C4A6E" stop-opacity="0.05"/>
-      <stop offset="100%" stop-color="#0A0A0F" stop-opacity="0"/>
+
+    <!-- Ambient Radial Halo behind Brand Logo -->
+    <radialGradient id="halo-MyPortfolio" cx="138" cy="140" r="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#0C4A6E" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#08080C" stop-opacity="0"/>
     </radialGradient>
-    
-    <!-- Linear Gradient for Canvas -->
+
+    <!-- Canvas Linear Gradient -->
     <linearGradient id="bg-grad-MyPortfolio" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#12121A"/>
-      <stop offset="100%" stop-color="#09090D"/>
+      <stop offset="0%" stop-color="#0F0F18"/>
+      <stop offset="50%" stop-color="#0A0A10"/>
+      <stop offset="100%" stop-color="#07070A"/>
+    </linearGradient>
+
+    <!-- Brand Card Glassmorphic Shading -->
+    <linearGradient id="card-grad-MyPortfolio" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161624" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0D0D14" stop-opacity="0.95"/>
     </linearGradient>
   </defs>
 
-  <!-- 1. Canvas Base & Grid -->
+  <!-- 1. Background Layers -->
   <rect width="960" height="280" rx="12" fill="url(#bg-grad-MyPortfolio)"/>
   <rect width="960" height="280" rx="12" fill="url(#grid-MyPortfolio)"/>
-  <rect width="960" height="280" rx="12" fill="url(#glow-MyPortfolio)"/>
+  <rect width="960" height="280" rx="12" fill="url(#halo-MyPortfolio)"/>
 
-  <!-- 2. Architectural Borders -->
-  <rect x="0.75" y="0.75" width="958.5" height="278.5" rx="11.25" fill="none" stroke="#222232" stroke-width="1.5"/>
-  <!-- Top Accent Highlight -->
-  <line x1="48" y1="1" x2="280" y2="1" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- 2. Architectural Outer Border & Top Accent Line -->
+  <rect x="0.75" y="0.75" width="958.5" height="278.5" rx="11.25" fill="none" stroke="#222234" stroke-width="1.5"/>
+  <line x1="48" y1="1" x2="260" y2="1" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round"/>
 
-  <!-- 3. Left Column Content -->
-  <!-- Category Badge -->
-  <g transform="translate(48, 38)">
-    <rect width="177.5" height="22" rx="4" fill="#0C4A6E" fill-opacity="0.35" stroke="#0EA5E9" stroke-width="1.2"/>
-    <circle cx="12" cy="11" r="3" fill="#0EA5E9"/>
-    <text x="22" y="14.5" fill="#7DD3FC" font-family="'SF Mono', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1.2">FULL-STACK ARCHITECTURE</text>
+  <!-- 3. Left Brand Showcase Card (180x180 px) -->
+  <g transform="translate(48, 50)">
+    <!-- Card Frame Base -->
+    <rect width="180" height="180" rx="18" fill="url(#card-grad-MyPortfolio)" stroke="#25253A" stroke-width="1.5"/>
+    <!-- Inner Border Glow -->
+    <rect x="1.5" y="1.5" width="177" height="177" rx="16.5" fill="none" stroke="#0EA5E9" stroke-width="1" stroke-opacity="0.25"/>
+    <!-- Precision Corner Alignment Brackets -->
+    <path d="M 12 24 L 12 12 L 24 12" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 168 156 L 168 168 L 156 168" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round"/>
   </g>
 
-  <!-- Title -->
-  <text x="48" y="98" fill="#F8FAFC" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="29" font-weight="800" letter-spacing="-0.5">Portfolio 2026</text>
-
-  <!-- Subtitle / Tagline -->
-  <text x="48" y="128" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="400">Developer Showcase Engineered with React 19 &amp; TanStack Start</text>
-
-  <!-- Tech Stack Badges -->
+  <!-- Brand Logo / Emblem Layer -->
   
-        <g transform="translate(48, 158)">
-          <rect width="75.6" height="24" rx="4" fill="#14141F" stroke="#26263A" stroke-width="1"/>
-          <text x="37.8" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">React 19</text>
+    <!-- MyPortfolio Monogram Terminal Pandaa Developer Mark -->
+    <polygon points="138,76 186,104 186,176 138,204 90,176 90,104" fill="#0E1B28" stroke="#0EA5E9" stroke-width="2.2"/>
+    <!-- Panda Ear Crests on Hexagon -->
+    <circle cx="106" cy="98" r="12" fill="#142638" stroke="#0EA5E9" stroke-width="2"/>
+    <circle cx="170" cy="98" r="12" fill="#142638" stroke="#0EA5E9" stroke-width="2"/>
+    <!-- Center Terminal Console Screen -->
+    <rect x="104" y="116" width="68" height="48" rx="6" fill="#08101C" stroke="#7DD3FC" stroke-width="1.5"/>
+    <circle cx="112" cy="124" r="2" fill="#EF4444"/>
+    <circle cx="118" cy="124" r="2" fill="#F59E0B"/>
+    <circle cx="124" cy="124" r="2" fill="#10B981"/>
+    <!-- Command Prompt -->
+    <text x="138" y="148" fill="#7DD3FC" font-family="'SF Mono', Consolas, monospace" font-size="14" font-weight="800" text-anchor="middle">&lt;dev/&gt;</text>
+    <rect x="156" y="140" width="5" height="9" fill="#0EA5E9"/>
+    
+
+  <!-- 4. Right Column Content -->
+  <!-- Header Badges Row (y: 50) -->
+  <g transform="translate(256, 50)">
+    <!-- Category Pill -->
+    <rect width="179.8" height="24" rx="4" fill="#0C4A6E" fill-opacity="0.32" stroke="#0EA5E9" stroke-width="1.2"/>
+    <circle cx="12" cy="12" r="3.5" fill="#0EA5E9"/>
+    <text x="22" y="15.5" fill="#7DD3FC" font-family="'SF Mono', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1">FULL-STACK ARCHITECTURE</text>
+
+    <!-- Official Repo Badge -->
+    <g transform="translate(189.8, 0)">
+      <rect width="108" height="24" rx="4" fill="#141422" stroke="#25253A" stroke-width="1"/>
+      <circle cx="12" cy="12" r="3" fill="#10B981"/>
+      <text x="22" y="15.5" fill="#94A3B8" font-family="'SF Mono', Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.5">OFFICIAL REPO</text>
+    </g>
+  </g>
+
+  <!-- Brand Display Title (y: 110) -->
+  <text x="256" y="112" fill="#F8FAFC" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="31" font-weight="800" letter-spacing="-0.6">Portfolio 2026</text>
+
+  <!-- Subtitle / Value Proposition (y: 142) -->
+  <text x="256" y="142" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400">Developer Showcase Engineered with React 19 &amp; TanStack Start</text>
+
+  <!-- Tech Stack Pills (y: 168) -->
+  
+        <g transform="translate(256.0, 168)">
+          <rect width="72.4" height="24" rx="4" fill="#13131F" stroke="#232338" stroke-width="1"/>
+          <text x="36.2" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">React 19</text>
         </g>
         
-        <g transform="translate(131.6, 158)">
-          <rect width="90.0" height="24" rx="4" fill="#14141F" stroke="#26263A" stroke-width="1"/>
-          <text x="45.0" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">TypeScript</text>
+        <g transform="translate(336.4, 168)">
+          <rect width="86.0" height="24" rx="4" fill="#13131F" stroke="#232338" stroke-width="1"/>
+          <text x="43.0" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">TypeScript</text>
         </g>
         
-        <g transform="translate(229.6, 158)">
-          <rect width="118.8" height="24" rx="4" fill="#14141F" stroke="#26263A" stroke-width="1"/>
-          <text x="59.4" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">TanStack Start</text>
+        <g transform="translate(430.4, 168)">
+          <rect width="113.2" height="24" rx="4" fill="#13131F" stroke="#232338" stroke-width="1"/>
+          <text x="56.6" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">TanStack Start</text>
         </g>
         
-        <g transform="translate(356.4, 158)">
-          <rect width="97.2" height="24" rx="4" fill="#14141F" stroke="#26263A" stroke-width="1"/>
-          <text x="48.6" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">Tailwind v4</text>
+        <g transform="translate(551.6, 168)">
+          <rect width="92.8" height="24" rx="4" fill="#13131F" stroke="#232338" stroke-width="1"/>
+          <text x="46.4" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">Tailwind v4</text>
         </g>
         
-        <g transform="translate(461.59999999999997, 158)">
-          <rect width="61.2" height="24" rx="4" fill="#14141F" stroke="#26263A" stroke-width="1"/>
-          <text x="30.6" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">Vite 8</text>
+        <g transform="translate(652.4, 168)">
+          <rect width="58.8" height="24" rx="4" fill="#13131F" stroke="#232338" stroke-width="1"/>
+          <text x="29.4" y="16" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="500" text-anchor="middle">Vite 8</text>
         </g>
         
 
-  <!-- Footer Metadata & GitHub Repository Info -->
-  <g transform="translate(48, 226)">
+  <!-- Bottom Metadata Row (y: 228) -->
+  <g transform="translate(256, 226)">
     <!-- GitHub Octocat Icon -->
     <path d="M 8 0 C 3.58 0 0 3.58 0 8 C 0 11.54 2.29 14.53 5.47 15.59 C 5.87 15.66 6.02 15.42 6.02 15.21 C 6.02 15.02 6.01 14.39 6.01 13.72 C 4 14.09 3.48 13.23 3.32 12.78 C 3.23 12.55 2.84 11.84 2.5 11.65 C 2.22 11.5 1.82 11.13 2.49 11.12 C 3.12 11.11 3.57 11.7 3.72 11.94 C 4.44 13.15 5.59 12.81 6.05 12.6 C 6.12 12.08 6.33 11.73 6.56 11.53 C 4.78 11.33 2.92 10.64 2.92 7.58 C 2.92 6.71 3.23 5.99 3.74 5.43 C 3.66 5.23 3.38 4.41 3.82 3.31 C 3.82 3.31 4.49 3.1 6.02 4.13 C 6.66 3.95 7.34 3.86 8.02 3.86 C 8.7 3.86 9.38 3.95 10.02 4.13 C 11.55 3.09 12.22 3.31 12.22 3.31 C 12.66 4.41 12.38 5.23 12.3 5.43 C 12.81 5.99 13.12 6.7 13.12 7.58 C 13.12 10.65 11.25 11.33 9.47 11.53 C 9.76 11.78 10.01 12.26 10.01 13.01 C 10.01 14.08 10 14.94 10 15.21 C 10 15.42 10.15 15.67 10.55 15.59 C 13.71 14.53 16 11.53 16 8 C 16 3.58 12.42 0 8 0 Z" fill="#64748B"/>
     <text x="24" y="12.5" fill="#64748B" font-family="'SF Mono', Consolas, monospace" font-size="12" font-weight="500">MasterPandaa / MyPortfolio</text>
-    
-    <!-- Status Pill -->
+
+    <!-- Active Status Badge -->
     <rect x="235" y="-1" width="62" height="18" rx="3" fill="#12121C" stroke="#252538" stroke-width="1"/>
     <circle cx="243" cy="8" r="2.5" fill="#10B981"/>
     <text x="250" y="11.5" fill="#94A3B8" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="600">ACTIVE</text>
-  </g>
 
-  <!-- 4. Right Column Geometric Vector Motif -->
-  
-    <g transform="translate(670, 35)">
-      <!-- Back Window (Tilted/Offset) -->
-      <rect x="25" y="25" width="160" height="110" rx="6" fill="#101018" stroke="#252538" stroke-width="1.5" opacity="0.6"/>
-      <circle cx="37" cy="35" r="2.5" fill="#64748B"/>
-      <circle cx="46" cy="35" r="2.5" fill="#64748B"/>
-
-      <!-- Main Front Window -->
-      <rect x="50" y="45" width="170" height="120" rx="8" fill="#141420" stroke="#0EA5E9" stroke-width="1.5"/>
-      <path d="M 50 53 Q 50 45 58 45 L 212 45 Q 220 45 220 53 L 220 65 L 50 65 Z" fill="#1A1A28"/>
-      <circle cx="62" cy="55" r="3" fill="#EF4444"/>
-      <circle cx="72" cy="55" r="3" fill="#F59E0B"/>
-      <circle cx="82" cy="55" r="3" fill="#10B981"/>
-
-      <!-- Code Elements inside window -->
-      <text x="65" y="85" fill="#7DD3FC" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="700">&lt;React19&gt;</text>
-      <rect x="75" y="93" width="70" height="6" rx="2" fill="#28283C"/>
-      <rect x="75" y="103" width="95" height="6" rx="2" fill="#28283C"/>
-      <text x="75" y="125" fill="#38BDF8" font-family="'SF Mono', Consolas, monospace" font-size="8.5">&lt;TanStackStart /&gt;</text>
-      <text x="65" y="145" fill="#7DD3FC" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="700">&lt;/React19&gt;</text>
-
-      <!-- Mobile Phone Frame on Right Side -->
-      <rect x="180" y="85" width="45" height="85" rx="6" fill="#0D0D14" stroke="#0EA5E9" stroke-width="2"/>
-      <rect x="194" y="89" width="16" height="3" rx="1.5" fill="#333348"/>
-      <rect x="186" y="98" width="33" height="55" rx="3" fill="#161624"/>
-      <circle cx="202" cy="162" r="3" fill="#333348"/>
-
-      <!-- Performance Gauge Ring -->
-      <g transform="translate(45, 175)">
-        <circle cx="20" cy="15" r="18" fill="#0D0D14" stroke="#252538" stroke-width="3"/>
-        <circle cx="20" cy="15" r="18" fill="none" stroke="#10B981" stroke-width="3" stroke-dasharray="100 20"/>
-        <text x="20" y="19" fill="#10B981" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="700" text-anchor="middle">100</text>
-        <text x="50" y="19" fill="#CBD5E1" font-family="'SF Mono', Consolas, monospace" font-size="9" font-weight="600">CWV 60FPS</text>
-      </g>
+    <!-- Secondary Architecture Blueprint Hint -->
+    <g transform="translate(436, -2)">
+      <rect width="218" height="20" rx="3" fill="#101018" stroke="#222234" stroke-width="1"/>
+      <circle cx="10" cy="10" r="2" fill="#0EA5E9"/>
+      <text x="18" y="13.5" fill="#38BDF8" font-family="'SF Mono', Consolas, monospace" font-size="8.5" font-weight="600">BLUEPRINT: BANNERS-SECONDARY</text>
     </g>
-    
+  </g>
 </svg>
